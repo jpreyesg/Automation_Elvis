@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Registro de nuevos usuarios</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Registro de nuevos usuarios</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Registro de nuevos usuarios</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">55.994s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Creacion exitosa de un usuario nuevo"></a>
+<h3 class="failures">Creacion exitosa de un usuario nuevo</h3>
+<span class="code">
+<pre>java.lang.AssertionError: Expected condition failed: waiting for Expecting element is displayed: By.xpath: //strong[contains(.,'Nothing Booked Yet')] (tried for 30 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-Macbook-2.local', ip: 'fe80:0:0:0:104b:5031:edf0:3f2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '10.0.2'
+Driver info: driver.version: unknown
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.curso.qa.stepsdefinitions.FormularioRegistroStepsDefinitions.elDeberiaPoderVerElMensajeDeCreacionExitosaDelUsuario(FormularioRegistroStepsDefinitions.java:52)
+	at ✽.El deberia poder ver el mensaje de creacion exitosa del usuario(/Users/macbookpro/IdeaProjects/com.curso.qa/src/test/resources/features/formulario_registro.feature:13)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Creacion exitosa de un usuario nuevo</td>
+<td class="failures">55.994s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:19:32.278 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FormularioRegistroStepsDefinitions.elSeEncuentraElLaZonaDeRegistroDeLaPagina - {0} opens the #url
+15:19:33.425 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:19:33.426 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: [], prefs: {pdfjs.disabled: true, profile_default_content_settings.popups: 0}}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+15:19:43.740 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #url
+15:19:43.792 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+15:19:43.793 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+15:19:44.518 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/macbookpro/IdeaProjects/com.curso.qa/target/site/serenity/aca2a0cc837ae8a842742e6840236934c6d2185b66980d748545c5fd12b16f54.png
+15:19:44.634 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FormularioRegistroStepsDefinitions.elCompletaElRegistroConLaInformacionRequeridaPorElFormulario - {0} Diliigencia el formulario con sus datos
+15:19:45.412 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/macbookpro/IdeaProjects/com.curso.qa/target/site/serenity/de18d7dacbb542230db4977389556b4acf194b7e0be2e280fdc7720c7e2c66f8.png
+15:19:45.414 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Diligenciar.performAs - !#title
+15:19:45.426 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Diligenciar.performAs - {0} enters #theTextAsAString into #target
+15:19:45.428 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Campo  Username
+15:19:46.696 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:19:46.707 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Diligenciar.performAs - {0} enters #theTextAsAString into #target
+15:19:46.709 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Campo  Lastname
+15:19:47.528 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:19:47.543 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Diligenciar.performAs - {0} enters #theTextAsAString into #target
+15:19:47.547 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Campo  Mobile
+15:19:48.310 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:19:48.319 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Diligenciar.performAs - {0} enters #theTextAsAString into #target
+15:19:48.320 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Campo Email
+15:19:49.224 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:19:49.235 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Diligenciar.performAs - {0} enters #theTextAsAString into #target
+15:19:49.237 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Campo Password
+15:19:49.835 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:19:49.847 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Diligenciar.performAs - {0} enters #theTextAsAString into #target
+15:19:49.848 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for repetirPassword
+15:19:50.474 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:19:50.868 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/macbookpro/IdeaProjects/com.curso.qa/target/site/serenity/529167a3aa4b9f4b3236af89e99758fc2468e37c15ca556c334c814d3de81048.png
+15:19:50.870 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: !#title
+15:19:50.874 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for BotonRegistrar
+15:19:50.973 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Diligenciar.performAs - {0} clicks on #target
+15:19:50.977 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for BotonRegistrar
+15:19:51.411 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+15:19:52.153 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/macbookpro/IdeaProjects/com.curso.qa/target/site/serenity/f53ac4f34622eddcac21514e985e66b0b93f9f19b2514096dc4f8b5f374e2c42.png
+15:19:52.153 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-15940116751781796836
+15:19:52.153 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/macbookpro/IdeaProjects/com.curso.qa/target/site/serenity/f53ac4f34622eddcac21514e985e66b0b93f9f19b2514096dc4f8b5f374e2c42.png
+15:19:52.154 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} Diliigencia el formulario con sus datos
+15:19:52.584 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for MensajeEsperadoCreacionUsuario
+15:20:24.854 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/macbookpro/IdeaProjects/com.curso.qa/target/site/serenity/26cb9eb4fa5f391a3f90e5c3ab2982653f688a8c1c5ed448682d6c91f8e3be02.png
+15:20:24.854 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3780157223951376994
+15:20:24.855 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/macbookpro/IdeaProjects/com.curso.qa/target/site/serenity/26cb9eb4fa5f391a3f90e5c3ab2982653f688a8c1c5ed448682d6c91f8e3be02.png
+15:20:25.546 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Creacion exitosa de un usuario nuevo
+---------------------------------------------------------------------?[0m
+15:20:25.560 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+15:20:26.054 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91mTEST FAILED AT STEP Then el mensaje should be 'Nothing Booked Yet'?[0m
+15:20:26.054 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected condition failed: waiting for Expecting element is displayed: By.xpath: //strong[contains(.,'Nothing Booked Yet')] (tried for 30 second(s) with 50 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'MacBook-Pro-de-Macbook-2.local', ip: 'fe80:0:0:0:104b:5031:edf0:3f2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '10.0.2'Driver info: driver.version: unknown
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>may. 31, 2021 3:19:32 P.M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 24726
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1622492374.223][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+may. 31, 2021 3:19:38 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at 31/05/2021, 3:20:30 p.m.</p>
+</div>
+</div>
+</body>
+</html>

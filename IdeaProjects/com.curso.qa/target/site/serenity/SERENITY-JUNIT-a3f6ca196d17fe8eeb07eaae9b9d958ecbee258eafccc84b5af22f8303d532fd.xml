@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Registro de nuevos usuarios" skipped="0" tests="1" time="55.12" timestamp="2021-05-31 03:19:29"><testcase name="Creacion exitosa de un usuario nuevo"><error message="Expected condition failed: waiting for Expecting element is displayed: By.xpath: //strong[contains(.,'Nothing Booked Yet')] (tried for 30 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-de-Macbook-2.local', ip: 'fe80:0:0:0:104b:5031:edf0:3f2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '10.0.2'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for Expecting element is displayed: By.xpath: //strong[contains(.,'Nothing Booked Yet')] (tried for 30 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-Macbook-2.local', ip: 'fe80:0:0:0:104b:5031:edf0:3f2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '10.0.2'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for Expecting element is displayed: By.xpath: //strong[contains(.,'Nothing Booked Yet')] (tried for 30 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-de-Macbook-2.local', ip: 'fe80:0:0:0:104b:5031:edf0:3f2f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '10.0.2'
+Driver info: driver.version: unknown
+com.curso.qa.stepsdefinitions.FormularioRegistroStepsDefinitions.elDeberiaPoderVerElMensajeDeCreacionExitosaDelUsuario(FormularioRegistroStepsDefinitions.java:52)
+✽.El deberia poder ver el mensaje de creacion exitosa del usuario(/Users/macbookpro/IdeaProjects/com.curso.qa/src/test/resources/features/formulario_registro.feature:13)
+</system-err></testcase></testsuite>

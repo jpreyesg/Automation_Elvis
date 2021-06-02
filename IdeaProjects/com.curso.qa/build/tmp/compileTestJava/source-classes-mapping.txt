@@ -1,0 +1,14 @@
+com/curso/qa/runners/FormularioRegistro.java
+ com.curso.qa.runners.FormularioRegistro
+com/curso/qa/models/Usuario.java
+ com.curso.qa.models.Usuario
+com/curso/qa/questions/ElMensaje.java
+ com.curso.qa.questions.ElMensaje
+com/curso/qa/tasks/LlenarDatos.java
+ com.curso.qa.tasks.LlenarDatos
+com/curso/qa/usersinterfaces/FormularioRegistroUI.java
+ com.curso.qa.usersinterfaces.FormularioRegistroUI
+com/curso/qa/tasks/Diligenciar.java
+ com.curso.qa.tasks.Diligenciar
+com/curso/qa/stepsdefinitions/FormularioRegistroStepsDefinitions.java
+ com.curso.qa.stepsdefinitions.FormularioRegistroStepsDefinitions
